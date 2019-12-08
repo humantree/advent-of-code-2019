@@ -1,7 +1,7 @@
 use std::iter::successors;
 
 #[aoc_generator(day1)]
-fn generator_input(input: &str) -> Vec<u32> {
+fn parse_input(input: &str) -> Vec<u32> {
   input.lines().map(|line| line.parse().unwrap()).collect()
 }
 
